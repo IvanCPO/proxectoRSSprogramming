@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
- <title>Articles</title>
- <subtitle>...</subtitle>
- <updated>2022-06-21T06:08:53Z</updated>
- ...
- <entry>
- <author>
- <name>Author's name</name>
- </author>
- <title>...</title>
- ...
- <updated>2022-06-21T06:08:53Z</updated>
- <published>2022-06-21T06:07:57Z</published>
- <category../>
- <summary>...</summary>
- </entry>
- <entry>
- ...
- </entry>
- ...
-</feed>
+<rss version="2.0">
+    <channel>
+        <title>Programming languages</title>
+        <description>Blog about programming language</description>
+        <link>https://ivancpo.github.io/proxectoRSSprogramming/</link>
+        <pubDate>Tue, 22 Nov 2022 10:00:00 GMT+1</pubDate>
+        <managingEditor>a22ivancp@iessanclemente.net</managingEditor>
+        <item>
+            <title>Java</title>
+            <link>https://ivancpo.github.io/proxectoRSSprogramming/java</link>
+            <pubDate>Tue, 22 Nov 2022 10:00:00 GMT+1</pubDate>
+            <description>Tricks about Java</description>
+        </item>
+        <item>
+            <title>Python</title>
+            <link>https://ivancpo.github.io/proxectoRSSprogramming/python</link>
+            <pubDate>Tue, 22 Nov 2022 10:00:00 GMT+1</pubDate>
+            <description>Tricks about Python</description>
+        </item>
+    </channel>
+</rss>
